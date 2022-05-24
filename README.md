@@ -1,1 +1,0 @@
-#swg_directory
