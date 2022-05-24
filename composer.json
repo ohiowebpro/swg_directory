@@ -1,0 +1,23 @@
+{
+    "name": "stonewall/swg_directory",
+    "description": "Directory plugin",
+    "type": "project",
+    "license": "MIT",
+    "config": {
+      "vendor-dir": "lib"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stonewall\\SwgDirectory\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eric Griffiths",
+            "email": "egriffiths@stonewallgroup.com"
+        }
+    ],
+    "require": {
+        "yahnis-elsts/plugin-update-checker": "^4.11"
+    }
+}

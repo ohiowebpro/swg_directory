@@ -8,3 +8,11 @@
  * License: GPLv2 or later
  * Text Domain: swg-directory
  */
+
+
+//Load Init file
+include( plugin_dir_path( __FILE__ ) . '/includes/init.php');
+
+//Load Composer
+require_once(plugin_dir_path(__FILE__) . '/lib/autoload.php');
+
